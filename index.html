@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07f7ff" />
+    <meta name="description" content="NZT Foundation — Next‑Zen Zero Trust cybersecurity platform" />
+    <title>NZT Foundation — Next‑Zen Zero Trust</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+    <canvas id="nzt-nebula" aria-hidden="true"></canvas>
+    <div class="scanline" aria-hidden="true"></div>
+
+    <header class="site-header" role="banner">
+        <a class="brand" href="#hero" aria-label="NZT Foundation Home">
+            <img src="assets/img/logo.jpg" alt="NZT Logo" class="brand__logo" width="40" height="40" />
+            <span class="brand__text">NZT Foundation</span>
+        </a>
+        <nav class="nav" role="navigation" aria-label="Primary">
+            <button class="nav__toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+            <ul id="nav-list" class="nav__list">
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#solutions" class="nav__link">Solutions</a></li>
+                <li><a href="#capabilities" class="nav__link">Capabilities</a></li>
+                <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+                <li><a href="#contact" class="nav__cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="hero" class="hero" role="main">
+        <div class="hero__content">
+            <h1 class="glitch" data-text="NZT FOUNDATION">NZT FOUNDATION</h1>
+            <h2 class="subtitle">Next‑Zen Zero Trust</h2>
+            <p class="lede">Project NZT delivers next‑gen zero trust cybersecurity through intelligent automation and rigorous engineering. We partner with teams to modernize security operations while reducing noise and time-to-contain.</p>
+            <div class="cta">
+                <a href="#capabilities" class="btn btn--primary">View Capabilities</a>
+                <a href="#solutions" class="btn btn--ghost">View Solutions</a>
+            </div>
+            <div class="hero__metrics" aria-label="Key metrics">
+                <div class="metric"><span class="metric__num">0</span><span class="metric__label">Implicit Trust</span></div>
+                <div class="metric"><span class="metric__num">24/7</span><span class="metric__label">AI Defense</span></div>
+                <div class="metric"><span class="metric__num">∞</span><span class="metric__label">Adaptive Zones</span></div>
+            </div>
+        </div>
+        <div class="hero__shader" aria-hidden="true"></div>
+    </main>
+
+    <section id="about" class="section section--about">
+        <div class="section__inner">
+            <h3 class="section__title">About NZT</h3>
+            <p>
+                Project NZT delivers next‑gen zero trust cybersecurity through intelligent automation and rigorous engineering. We
+                partner with teams to modernize security operations while reducing noise and time-to-contain.
+            </p>
+            <ul class="features">
+                <li class="feature">
+                    <h4>Identity Graph</h4>
+                    <p>Continuously mapped relationships and context for dynamic access authorization.</p>
+                </li>
+                <li class="feature">
+                    <h4>Autonomous Policy</h4>
+                    <p>LLM‑assisted policy synthesis that learns from signals and explains decisions.</p>
+                </li>
+                <li class="feature">
+                    <h4>Quantum‑Ready Crypto</h4>
+                    <p>Hybrid schemes and agile key rotation designed for tomorrow’s threats.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="solutions" class="section section--grid">
+        <div class="section__inner">
+            <h3 class="section__title">Solutions</h3>
+            <div class="river">
+                <article class="river__item">
+                    <h4>Workforce Zero Trust</h4>
+                    <p>Adaptive access across SaaS and internal apps with continuous verification.</p>
+                </article>
+                <article class="river__item">
+                    <h4>Micro‑Segmented Networks</h4>
+                    <p>Software‑defined perimeters that dissolve lateral movement.</p>
+                </article>
+                <article class="river__item">
+                    <h4>Machine‑to‑Machine</h4>
+                    <p>Mutual attestation and ephemeral credentials for services and APIs.</p>
+                </article>
+                <article class="river__item">
+                    <h4>Data‑Centric Security</h4>
+                    <p>Policy follows data with attribute‑based controls and privacy guardrails.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="capabilities" class="section section--grid">
+        <div class="section__inner">
+            <h3 class="section__title">Capabilities</h3>
+            <div class="river">
+                <article class="river__item">
+                    <h4>Unified Zero Trust Control</h4>
+                    <p>Continuously verify identity, device, and context before every action across users, apps, and workloads.</p>
+                </article>
+                <article class="river__item">
+                    <h4>Autonomous Policy Engine</h4>
+                    <p>Policy-as-code with explainable decisions and adaptive responses to risk in real time.</p>
+                </article>
+                <article class="river__item">
+                    <h4>Signal Mesh & Detection</h4>
+                    <p>Correlate telemetry from endpoints, identity, and networks to cut noise and reveal intent.</p>
+                </article>
+                <article class="river__item">
+                    <h4>Rapid Containment</h4>
+                    <p>Automated isolation and least-privilege pathways reduce time-to-contain without blocking business.</p>
+                </article>
+                <article class="river__item">
+                    <h4>Data-Centric Protections</h4>
+                    <p>Attribute-based controls and encrypted flows so policy follows data everywhere it goes.</p>
+                </article>
+                <article class="river__item">
+                    <h4>Cloud & Edge Ready</h4>
+                    <p>Hybrid, multi-cloud, and edge-native support with posture verification and continuous attestation.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section section--dark">
+        <div class="section__inner">
+            <h3 class="section__title">Testimonials</h3>
+            <div class="cards">
+                <article class="card">
+                    <h4>Apex Bank</h4>
+                    <p>“NZT cut our alert noise by 62% and reduced time‑to‑contain from hours to minutes.”</p>
+                </article>
+                <article class="card">
+                    <h4>Zenora Health</h4>
+                    <p>“Unified zero trust controls helped us pass audits with clearer evidence and less manual work.”</p>
+                </article>
+                <article class="card">
+                    <h4>Northstar Cloud</h4>
+                    <p>“Adaptive policies blocked risky access automatically without disrupting developer velocity.”</p>
+                </article>
+                <article class="card">
+                    <h4>BlueGrid Logistics</h4>
+                    <p>“Rapid containment isolated threats across sites instantly, keeping operations online.”</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section--contact">
+        <div class="section__inner">
+            <h3 class="section__title">Contact</h3>
+            <form class="form" autocomplete="on" novalidate>
+                <div class="grid">
+                    <label class="field">
+                        <span>Name</span>
+                        <input type="text" name="name" placeholder="Ada Lovelace" required />
+                    </label>
+                    <label class="field">
+                        <span>Email</span>
+                        <input type="email" name="email" placeholder="you@domain.com" required />
+                    </label>
+                </div>
+                <label class="field">
+                    <span>Message</span>
+                    <textarea name="message" rows="5" placeholder="Tell us about your zero‑trust goals..." required></textarea>
+                </label>
+                <button type="submit" class="btn btn--primary">Send</button>
+                <p class="form__note" role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="section__inner">
+            <p>© <span id="year"></span> NZT Foundation — Next‑Zen Zero Trust</p>
+            <div class="social">
+                <a href="#" aria-label="Twitter" title="Twitter">𝕏</a>
+                <a href="#" aria-label="GitHub" title="GitHub">GH</a>
+                <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/nebula.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
