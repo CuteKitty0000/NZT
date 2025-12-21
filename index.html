@@ -155,29 +155,30 @@
     </section>
 
     <section id="contact" class="section section--contact">
-        <div class="section__inner">
-            <h3 class="section__title">Contact</h3>
-            <form class="form" autocomplete="on" novalidate>
-                <div class="grid">
-                    <label class="field">
-                        <span>Name</span>
-                        <input type="text" name="name" placeholder="Ada Lovelace" required />
-                    </label>
-                    <label class="field">
-                        <span>Email</span>
-                        <input type="email" name="email" placeholder="you@domain.com" required />
-                    </label>
-                </div>
+    <div class="section__inner">
+        <h3 class="section__title">Contact</h3>
+        <form class="form" action="https://formspree.io/f/mzdpvddn" method="post" autocomplete="on" novalidate>
+            <div class="grid">
                 <label class="field">
-                    <span>Message</span>
-                    <textarea name="message" rows="5" placeholder="Tell us about your zero‑trust goals..." required></textarea>
+                    <span>Name</span>
+                    <input type="text" name="name" placeholder="Ada Lovelace" required />
                 </label>
-                <br>
-                <button type="submit" class="btn btn--primary">Send</button>
-                <p class="form__note" role="status" aria-live="polite"></p>
-            </form>
-        </div>
-    </section>
+                <label class="field">
+                    <span>Email</span>
+                    <input type="email" name="email" id="email" placeholder="you@domain.com" required />
+                </label>
+            </div>
+            <label class="field">
+                <span>Message</span>
+                <textarea name="message" rows="5" placeholder="Tell us about your zero-trust goals..." required></textarea>
+            </label>
+            <br>
+            <button type="submit" class="btn btn--primary">Send</button>
+            <p class="form__note" role="status" aria-live="polite"></p>
+        </form>
+    </div>
+</section>
+
     
     <footer class="site-footer">
     <div class="section__inner">
