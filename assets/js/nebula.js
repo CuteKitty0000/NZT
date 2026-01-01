@@ -1,5 +1,3 @@
-const SPEED = 2.5;
-
 /* Animated nebula/particles background (canvas 2D) */
 (function() {
   const canvas = document.getElementById('nzt-nebula');
