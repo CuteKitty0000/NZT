@@ -1,4 +1,4 @@
-const SPEED = 1.5;
+const SPEED = 2.5;
 
 /* Animated nebula/particles background (canvas 2D) */
 (function() {
